@@ -1,4 +1,6 @@
 #!/usr/bin/node
-for (const x = 'C is fun) {
-  console.log(x.repeat(process.argv[2]);
+const str = 'C is fun';
+const num = process.argv[2];
+for (str.repeat(num)) {
+  console.log(str)
 }
