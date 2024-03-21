@@ -1,2 +1,2 @@
 #!/usr/bin/node
-console.log( + ' is ' + );
+console.log(process.argv[2] + ' is ' + process.argv[3]);
