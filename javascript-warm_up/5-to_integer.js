@@ -1,3 +1,2 @@
 #!/usr/bin/node
-My number: <first argument converted in integer></first>
-console.log()
+console.log('My number: ' + process.argv[2]);
