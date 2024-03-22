@@ -7,3 +7,4 @@ function secondBiggest (array) {
   return array[array.length - 2];
 }
 console.log(secondBiggest(process.argv.slice(2).map(Number)));
+// convert arguments to ints
