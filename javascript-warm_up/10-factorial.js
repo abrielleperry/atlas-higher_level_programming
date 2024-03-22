@@ -4,4 +4,6 @@ function factorial (n) {
     return 1;
   }
   return n * factorial(n - 1);
+}
 const a = parseInt(process.argv[2]);
+console.log(factorial(a));
