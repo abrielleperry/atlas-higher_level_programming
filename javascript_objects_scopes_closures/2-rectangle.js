@@ -5,10 +5,10 @@ class Rectangle {
     this.height = h;
 
     if (this.width <= 0) {
-      return undefined;
+      return {};
     }
     if (this.height <= 0) {
-      return undefined;
+      return {};
     }
   }
 }
