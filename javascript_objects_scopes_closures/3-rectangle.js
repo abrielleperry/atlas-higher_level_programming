@@ -9,4 +9,6 @@ class Rectangle {
     }
   }
 }
+instanceof Rectangle
+
 module.exports = Rectangle;
