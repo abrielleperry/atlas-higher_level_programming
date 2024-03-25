@@ -10,8 +10,8 @@ class Rectangle {
   }
 }
 print() instanceof Rectangle; {
-  let row = w;
-  let column = h;
+  const row = width;
+  const column = height;
   for (let i = 0; i < row; i++) {
     for (let j = 0; j < column; j++) {
       console.log('X');
