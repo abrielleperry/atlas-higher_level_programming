@@ -9,6 +9,6 @@ class Rectangle {
     }
   }
 }
-instanceof Rectangle
+print() instanceof Rectangle
 
 module.exports = Rectangle;
