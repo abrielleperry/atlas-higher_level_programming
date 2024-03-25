@@ -5,6 +5,9 @@ class Square extends Square {
       super(size, size);
     }
     charPrint(c = 'X') {
+      for (var i = 0; i < this.height; i++) {
+
+      }
   }
 }
 module.exports = Square;
