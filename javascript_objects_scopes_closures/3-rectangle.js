@@ -8,13 +8,14 @@ class Rectangle {
       return 'Rectangle {}';
     }
   }
-}
-print() instanceof Rectangle; {
-  const row = width;
-  const column = height;
-  for (let i = 0; i < row; i++) {
-    for (let j = 0; j < column; j++) {
-      console.log('X');
+
+  print () {
+    for (let i = 0; i < this.height; i++) {
+      let row = '';
+      for (let j = 0; j < this.width; j++) {
+        row += 'X';
+      }
+      console.log(row);
     }
   }
 }
