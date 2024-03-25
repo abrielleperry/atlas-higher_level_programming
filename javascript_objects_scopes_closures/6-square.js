@@ -5,8 +5,8 @@ class Square extends Square {
       super(size, size);
     }
     charPrint(c = 'X') {
-      for (var i = 0; i < this.height; i++) {
-
+      for (var i = 0; i < this.size; i++) {
+        console.log(c.repeat(this.size));
       }
   }
 }
