@@ -4,9 +4,11 @@ class Square extends Rectangle {
     constructor(size) {
       super(size, size);
     }
-    charPrint(c = 'X') {
+    charPrint(c) {
       for (var i = 0; i < this.height; i++) {
         console.log(c.repeat(this.width));
+        for (c === undefined)
+        }
       }
   }
 }
