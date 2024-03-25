@@ -9,10 +9,14 @@ class Rectangle {
     }
   }
 }
-print() instanceof Rectangle {
+print() instanceof Rectangle; {
   let row = w;
   let column = h;
-
+  for (let i = 0; i < row; i++) {
+    for (let j = 0; j < column; j++) {
+      console.log('X');
+    }
+  }
 }
 
 module.exports = Rectangle;
