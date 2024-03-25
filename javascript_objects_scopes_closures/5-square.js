@@ -1,6 +1,8 @@
 #!/usr/bin/node
-class Square extends this.super(Rectangle) {
+class Square extends Rectangle {
   constructor (size) {
     super(size, size);
   }
 }
+
+module.exports = Square;
