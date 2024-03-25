@@ -20,4 +20,8 @@ class Rectangle {
   }
 }
 
+rotate () {
+  const turn = this.width;
+}
+
 module.exports = Rectangle;
