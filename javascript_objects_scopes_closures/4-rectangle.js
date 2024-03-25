@@ -20,7 +20,7 @@ class Rectangle {
   }
 
   rotate () {
-    const turn = this.width;
+    const turn = this.width; // temp store the val of width
     this.width = this.height;
     this.height = turn;
   }
