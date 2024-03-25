@@ -9,6 +9,10 @@ class Rectangle {
     }
   }
 }
-print() instanceof Rectangle
+print() instanceof Rectangle {
+  let row = w;
+  let column = h;
+
+}
 
 module.exports = Rectangle;
