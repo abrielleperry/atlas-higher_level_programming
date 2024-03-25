@@ -20,9 +20,12 @@ class Rectangle {
   }
 }
 
-rotate () {
-  const turn = this.width;
-  this.width = this.height;
-}
+  rotate() {
+    const turn = this.width;
+    this.width = this.height;
+    this.height = turn;
+    }
 
-module.exports = Rectangle;
+  double() {
+
+  module.exports = Rectangle;
