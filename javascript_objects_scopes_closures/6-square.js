@@ -4,7 +4,7 @@ class Square extends Square {
     constructor(size) {
       super(size, size);
     }
-    charPrint(c) {
+    charPrint(c = 'X') {
   }
 }
 module.exports = Square;
