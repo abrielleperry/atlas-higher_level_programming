@@ -11,4 +11,6 @@ fs.readFile(filePath, 'utf8', (error, data) => {
 
 //readFile(path, options, callback)
 // path- if both file and program are insame folder then simply give name of text file
-// options- 
+// options- optional param that specifies the data is to be read from file
+// callback- further 2 args error and data. if it fails to get data, the error shows whats at fault
+// and data arg will contain data from the file
