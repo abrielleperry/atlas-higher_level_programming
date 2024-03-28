@@ -2,5 +2,6 @@
 const request = require('request')
 const url = process.argv[2];
 request.get(url, function (error, response) {
-  console.log(error)
-});
+  if (error) {
+    console.error('error:', error);
+  }
