@@ -6,5 +6,6 @@ request.get(apiUrl, function (error, response, body) {
     console.error('error:', error);
   } else {
     let counter = 0;
+    const films = JSON.parse(body).results;
   }
 }
