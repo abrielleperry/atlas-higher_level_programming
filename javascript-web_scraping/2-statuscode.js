@@ -8,3 +8,5 @@ request.get(url, function (error, response) {
     console.log('code:', response.statusCode);
   }
 });
+
+// 4- get request to url given in the command line
