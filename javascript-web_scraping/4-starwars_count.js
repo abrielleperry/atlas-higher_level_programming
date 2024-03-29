@@ -5,6 +5,6 @@ request.get(apiUrl, function (error, response, body) {
   if (error) {
     console.error('error:', error);
   } else {
-    
+    let counter = 0;
   }
 }
