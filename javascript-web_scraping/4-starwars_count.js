@@ -8,7 +8,7 @@ request.get(apiUrl, function (error, response, body) {
     let counter = 0;
     const films = JSON.parse(body).results; // turn json string into javascript objects (array)
     for (const film of films) {
-      if (film.characters.includes('https://swapi-api.hbtn.io/api/people/18/')) {
+      if (film.characters.some(characterUrl => characterUrl.includes('18'))) {
         counter++;
       }
     }
