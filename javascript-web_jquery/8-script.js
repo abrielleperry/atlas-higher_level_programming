@@ -1,4 +1,4 @@
 const url = 'https://swapi-api.hbtn.io/api/films/?format=json'
-$.get(title, function (data, status) {
-$(UL#list_movies)
+$.get(url, function (data, status) {
+  $(UL#list_movies).text(data.title);
 });
