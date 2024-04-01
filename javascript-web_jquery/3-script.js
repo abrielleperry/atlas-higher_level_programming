@@ -1,2 +1,2 @@
-$('#red-header').click(function () {
+$('#DIVred-header').click(function () {
 });
