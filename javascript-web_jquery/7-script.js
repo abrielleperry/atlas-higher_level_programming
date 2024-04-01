@@ -1,2 +1,4 @@
 const url = 'https://swapi-api.hbtn.io/api/people/5/?format=json';
-$.get
+$.get(url, function(data, status) {
+  $('#character').text(data.name);
+});
