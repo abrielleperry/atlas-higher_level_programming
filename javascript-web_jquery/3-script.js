@@ -1,3 +1,3 @@
-  $('#DIVred-header').click(function () {
-    $('header').addClass('red');
+$('#DIVred-header').click(function () {
+  $('header').addClass('red');
 });
