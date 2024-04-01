@@ -1,3 +1,3 @@
 $('DIV#toggle_header').click(function () {
-  $('header').toddleClass()
+  $('header').toddleClass('green')
 });
