@@ -12,10 +12,12 @@ request.get(apiUrl, function (error, response, body) {
 
   for (const task of tasks) {
     if (task.completed) {
-      completedTasks[task.userId]++;
-    } else {
-      completedTasks[task.userId] = 1;
+      if (completedTasks[task.userId]) {
+        completedTasks[task.userId]++;
+      } else {
+        completedTasks[task.userId] = 1;
       }
     }
   }
+  console.log(completedTasks);
 });
