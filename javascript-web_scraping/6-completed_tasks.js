@@ -9,4 +9,13 @@ request.get(apiUrl, function (error, response, body) {
 
   const tasks = JSON.parse(body);
   const completedTasks = {};
+
+  for (const task of tasks) {
+    if (task.completed) {
+      completedTasks[task.userId]++;
+    } else {
+
+      }
+    }
+  }
 });
