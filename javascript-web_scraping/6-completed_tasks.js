@@ -7,6 +7,6 @@ request.get(apiUrl, function (error, response, body) {
     return;
   }
 
-  const tasks = JSON.parse;
-  const completedTasks =
+  const tasks = JSON.parse(body);
+  const completedTasks = {};
 });
