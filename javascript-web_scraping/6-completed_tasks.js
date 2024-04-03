@@ -14,7 +14,7 @@ request.get(apiUrl, function (error, response, body) {
     if (task.completed) {
       completedTasks[task.userId]++;
     } else {
-
+      completedTasks[task.userId] = 1;
       }
     }
   }
